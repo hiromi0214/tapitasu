@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box;
+	/*レイアウト崩れ防止*/
+	border:1px bold #000;
+
+}
+
+li {list-style: none;}
+/*リストの黒点を消す*/
+
+a{
+	display:inline;
+
+	margin: 0px;
+ 	padding: 0px;
+}
+ p{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+
+header {
+	width: 100%;
+	background-color: #000;
+	border-radius: 5px;
+}
+ header a {
+ 	font-weight: bold;
+ 	color: white;
+ 	font-size: 10px;
+ 	margin:0 20px 0 10px;
+ }
+
+.top {
+	width: :100%;
+	height: 300px;
+	background-image: url(https://www.gurutto-koriyama.com/common/image2.php?1=1&h=350&f=%2Fdb%5Fimg%2Fcl%5Fimg%2F1146%2Fmain%5Fimg%5F20210403091442887%2Ejpg);
+	background-size:cover;
+	font-weight: bold;
+}
+
+.top_mes {
+		color: yellow;
+}
+
+.bot {
+	display: inline-block;
+	background-color: rgba(255,20,20,0.9);
+	text-align:center;
+	font-size: 20px;
+	line-height: 70px;
+	font-weight: bold;
+	box-shadow: 5px 5px #000;
+	width: 100px;
+	height: 70px;
+	margin: 160px 400px 0 10px;
+	border-radius: 20px;
+
+}
+
+.inf a {
+	display: block;
+	font-weight: bold;
+	width: 100%;
+	color: white;
+	background-color: #2C7CFF;
+}
+
+.men {
+	display: inline-block;
+	width: 100%;
+}
+
+.ich {
+	width: 50%;
+	height: 200px;
+	float:left;
+	background-image: url(https://prtimes.jp/i/2646/444/resize/d2646-444-281778-1.jpg);
+	background-size: cover;
+}
+
+.mer {
+	width: 50%;
+	height: 200px;
+	float:left;
+	background-image: url(https://twitfukuoka.com/wp-content/uploads/2021/04/202104200012.jpg);
+	background-size: cover;
+}
+
+.coc {
+	width: 50%;
+	height: 200px;
+	float:left;
+	background-image: url(https://nestle.jp/recipe/out_images/recipe/images_l/3100_3199/3104.jpg);
+	background-size: cover;
+}
+
+.mil {
+	width: 50%;
+	height: 200px;
+	float:left;
+	background-image: url(https://image.delishkitchen.tv/recipe/147606659030581722/1.jpg?version=1573710782);
+	background-size: cover;
+}
